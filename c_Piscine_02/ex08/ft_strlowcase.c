@@ -13,6 +13,7 @@ char	*ft_strlowcase(char *str)
 		}
 		i++;
 	}
+	return (str);
 }
 int main()
 {
