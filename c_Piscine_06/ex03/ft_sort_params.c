@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <string.h>
 
 int ft_strlen(char *str)
 {
@@ -11,6 +12,8 @@ int ft_strlen(char *str)
                 str++;
         }
         return index;
+
+        strdup();
 }
 
 void swap(char *tab, int largest, int lastunsortedindex)
